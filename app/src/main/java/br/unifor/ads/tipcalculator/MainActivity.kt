@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity(), SeekBar.OnSeekBarChangeListener {
                 mTextViewFixedPercentageValue.text = minTipValue(billValue).toString()
                 mTextViewFixedPercentageResult = findViewById(R.id.main_edittext_fixed_percentage_result)
                 mTextViewFixedPercentageResult.text = minTipResult(billValue).toString()
-                mTextViewFixedPercentageResult.text = billValueConcat
+               // mTextViewFixedPercentageResult.text = billValueConcat
             }
 
             false
